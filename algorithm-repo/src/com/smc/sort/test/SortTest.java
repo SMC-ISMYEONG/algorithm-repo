@@ -4,6 +4,7 @@ import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
 
+import com.smc.sort.BubbleSort;
 import com.smc.sort.SelectSort;
 
 public class SortTest {
@@ -13,7 +14,6 @@ public class SortTest {
 	// 원하는 결과 배열
 	int[] resultArray = new int[] {1, 3, 5, 8, 10, 15, 20};
 
-
 	@Test
 	public void testSelectSortAlgorithm() {
 		// 선택 정렬
@@ -21,5 +21,14 @@ public class SortTest {
 		
 		// 결과
 		assertArrayEquals(resultArray, selectSort.doSelectSort());
+	}
+
+	@Test
+	public void testBubbleSortAlgorithm() {
+		// 버블 정렬
+		BubbleSort bubleSort = new BubbleSort(targetArray);
+		
+		// 결과
+		assertArrayEquals(resultArray, bubleSort.doBubbleSort());
 	}
 }

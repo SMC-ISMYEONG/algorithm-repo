@@ -4,7 +4,7 @@ import com.smc.utils.AlgoritimUtils;
 
 /**
  * 
- * 선형 탐색 알고리즘
+ * 선택 정렬 알고리즘
  * 1. 전체 값 중 최소 값을 찾는다. (순차적으로)
  * 2. 찾은 값을 왼쪽에 배치한다.
  * 3. 반복해서 최소 값을 왼쪽에 배치한다.
@@ -29,7 +29,7 @@ public class SelectSort {
 
 	/**
 	 * 
-	 * 선택정렬을 하는 메서드
+	 * 선택 정렬을 하는 메서드
 	 * 
 	 * @author ismyeong
 	 * @writeday 2019. 2. 17.
