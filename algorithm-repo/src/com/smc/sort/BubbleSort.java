@@ -5,9 +5,9 @@ import com.smc.utils.AlgoritimUtils;
 /**
  * 
  * 버블 정렬 알고리즘
- * 1. 현재 값과 전 값을 비교하여 작은 값을 찾는다.
- * 2. 찾은 값을 왼쪽에 배치한다.
- * 3. 반복해서 최소 값을 왼쪽에 배치한다.
+ * <li>1. 현재 값과 전 값을 비교하여 작은 값을 찾는다.
+ * <li>2. 찾은 값을 왼쪽에 배치한다.
+ * <li>3. 반복해서 최소 값을 왼쪽에 배치한다.
  *
  * @class SelectSort.java
  * @author ismyeong
@@ -26,6 +26,16 @@ public class BubbleSort {
 		this.targetArray = targetArray;
 	}
 	
+	/**
+	 * 
+	 * 버블 정렬을 하는 메서드
+	 * 
+	 * @author ismyeong
+	 * @writeday 2019. 2. 17.
+	 * @return int[]
+	 * @exception NullPointerException
+	 *
+	 */
 	public int[] doBubbleSort() {
 		// 정렬될 배열이 null일 경우 예외처리
 		if(targetArray == null) {
